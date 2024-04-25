@@ -84,6 +84,18 @@ After installing the Azure Account extension, Login to cloud shell in VS code an
 ansible-playbook /home/yourusernameincloudshell/create_virtualmachine_with_subnet_in_different_resource_group.yml -e "resource_group_name=ansible_test_rg"
 ```
 
+# Deploy from docker and ansible 
+
+## Doc here: https://github.com/Maissacrement/azureDeploy
+
+## How to use make
+
+Choose your file and run the playbook
+
+```
+PARAM="filename.yml" make deploy_file
+```
+
 ## How to Contribute
 
 Please refer to [Coding Guideline](./CODEGUIDELINE.md) on how to contribute.
